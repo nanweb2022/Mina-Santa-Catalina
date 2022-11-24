@@ -1,0 +1,98 @@
+/* Utility Classes */
+h1 {font-size: 1.641rem;}
+h2 {font-size: 1.553rem;}
+h3 {font-size: 1.263rem;}
+h4 {font-size: 1rem;}
+
+.py-80 {padding: 30px 0;}
+.py-50 {padding: 20px 0;}
+.py-30 {padding: 10px 0;}
+
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* Navbar */
+#navbar {
+  text-align: center;
+}
+
+#navbar .logo {
+  float: none;
+  padding-bottom: 10px;
+  font-size: 2.2rem;
+}
+
+#navbar ul {
+  float: none;
+}
+
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 10px;
+}
+
+/* Showcase */
+#showcase {
+  margin-top: 10px;
+  padding: 70px;
+  height: 100%;
+}
+
+.container{
+  padding: 0, 10px;
+  max-width: 100%;
+}
+
+/* Reservation */
+#reservation {
+  text-align: center;
+}
+#reservation h2 {
+  float: none;
+  margin: 10px;
+}
+
+#reservation a {
+  float: none;
+  margin: 10px;
+}
+
+/* About */
+#about {
+  text-align: center;
+}
+
+#about .about-content {
+  float: none;
+  width: 100%;
+  padding: 10px;
+}
+
+#about .about-video {
+  float: none;
+  width: 100%;
+}
+
+#testimonial{
+  height: auto;
+}
+
+ /*contact*/
+#boton{
+  width: 100%;
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contenedor .logo{
+  margin: 40px;
+}

@@ -1,0 +1,148 @@
+/* Home - Reservation */
+@media(max-width:1037px){
+  #showcase .container h1{
+    font-size: 32px;
+  }
+
+  #reservation {
+    /* background: #fafbfb; */
+    height: 220px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #reservation .reservation-text{
+    text-align: center;
+    float: none;
+    padding: 10px
+  }
+  
+  #reservation .reservation-btn {
+    float: none;
+    padding: 10px;
+  } 
+  
+  #about .about-video {
+    float: none;
+    width: 100%;
+    padding: 10px 0 15px 0;
+  }
+}
+
+@media(max-width:768px){
+  /* Menu */
+
+  h1 {font-size: 1.641rem;}
+  h2 {font-size: 1.553rem;}
+  h3 {font-size: 1.263rem;}
+  h4 {font-size: 1rem;}
+  
+
+  #navbar .logo {
+    float: none;
+    text-align: center;
+  }
+
+  #navbar ul, #navbar ul li {
+    float: none;
+  }
+
+  #navbar ul li a {
+    padding: 5px;
+    border-bottom: #444 dotted 1px;
+  }
+
+  /* Home - Showcase */
+  #showcase .container h1{
+    font-size: 25px;
+  } 
+
+  #showcase {
+    height: 350px;
+  }
+
+  #showcase .showcase-content{
+    padding-top: 50px;
+  }
+
+  /* Home Features */
+  .box {
+    float: none;
+    width: 100%;
+  }
+
+  /* About */
+  #about .about-text{
+    float: none;
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  #about .about-video {
+    float: none;
+    width: 100%;
+    padding: 10px 0 15px 0;
+  }
+
+  /* Testimonials */
+  #testimonials {
+    height: 600px;
+    padding: 0px;
+  }
+
+  #testimonials h2 {
+    padding: 20px 0;
+  }
+
+  #testimonials .testimonial {
+    margin-bottom: 10px;
+  }
+
+  #testimonials .testimonial img {
+    float: none;
+    margin-top: 10px;
+  }
+
+  /*contact*/
+  #contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media(max-width:375px){
+/* Home - Showcase */
+  #showcase h1 {font-size: 32px;}
+
+  p{
+    font-size: 10px;
+  }
+
+  #showcase {
+  height: 400px;
+  }
+
+  #showcase .showcase-content{
+    padding-top: 30px;
+  }
+
+  #about .about-video {
+    float: none;
+    width: 100%;
+    padding: 10px 0 15px 0;
+  }
+
+  #testimonials{
+    height: 100%;
+  }
+
+   /*contact*/
+  #contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
